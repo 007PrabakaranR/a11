@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useState } from "react";
 import PopupRight from "./Popup";
 
-const Header = ({ h, c, a }) => {
+const Header = ({ h, c, a, d, e}) => {
   const [isOpen,setIsOpen] = useState(false)
   return (
     <div className="">
-      <section className="bg-amber-500/90 m-2 rounded-sm">
+      <section className="bg-green-800/90 m-2 rounded-sm">
         <div className="flex justify-between space-x-4">
           <div className="p-2 flex justify-start">
             <Image
@@ -30,6 +30,12 @@ const Header = ({ h, c, a }) => {
             </Link>
             <Link href={"/contact"}>
               <h5 className="a1">{c}</h5>
+            </Link>
+                        <Link href={"/menu"}>
+              <h5 className="a1">{d}</h5>
+            </Link>
+                        <Link href={"/service"}>
+              <h5 className="a1">{e}</h5>
             </Link>
           </div>
           <div className="flex my-auto space-x-4 justify-end block lg:hidden md:hidden lg:flex md:flex pr-2" onClick={()=>setIsOpen(true)}>

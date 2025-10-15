@@ -1,11 +1,9 @@
 // pages/about.js or components/AboutPage.js
 import Image from 'next/image'
 
-
-
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-green-50 m-2 rounded-sm">
+    <div className="min-h-screen bg-green-50">
       {/* Hero Section */}
       <section className="bg-green-800 text-white py-20">
         <div className="container mx-auto px-4 text-center">
@@ -131,9 +129,9 @@ export default function AboutPage() {
                   our environment.
                 </p>
                 <p className="text-gray-700">
-                  "Every mushroom we grow carries our commitment to quality, sustainability, 
-                  and the health of our community. We're not just farmers; we're stewards 
-                  of the earth."
+                  &quot;Every mushroom we grow carries our commitment to quality, sustainability, 
+                  and the health of our community. We&apos;re not just farmers; we&apos;re stewards 
+                  of the earth.&quot;
                 </p>
               </div>
             </div>
@@ -175,14 +173,3 @@ const processSteps = [
     description: "Quick delivery to ensure you receive the freshest mushrooms possible"
   }
 ]
-
-
-//import AboutPage from "@/components/About";
-
-// export default function Page() {
-//     return (
-//         <div>
-//             <AboutPage></AboutPage>
-//         </div>
-//     );
-// }

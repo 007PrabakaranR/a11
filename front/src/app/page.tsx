@@ -3,6 +3,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import HomePage from "@/components/Home";
 import Popup from "@/components/Popup";
 import { useState } from "react";
 
@@ -111,15 +112,17 @@ import { useState } from "react";
 // }
 
 
+
 export default function Page() {
   const [isopen,setIsopen] = useState(true)
   return (
     <div>
-      <Header h={"Home"} c={"Contact"} a={"About"}></Header>
+      {/* <Header h={"Home"} c={"Contact"} a={"About"}></Header> */}
       <div onClick={()=>setIsopen((e)=>!e)}>
         {!isopen && <Popup></Popup>}
       </div>
-      <Footer></Footer>
+      <HomePage></HomePage>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
