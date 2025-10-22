@@ -5,7 +5,15 @@ import Link from "next/link";
 import { useState } from "react";
 import PopupRight from "./Popup";
 
-const Header = ({ h, c, a, d, e}) => {
+interface HeaderProps {
+  h: string;
+  c: string;
+  a: string;
+  d: string;
+  e: string;
+}
+
+const Header = ({ h, c, a, d, e }: HeaderProps) => {
   const [isOpen,setIsOpen] = useState(false)
   return (
     <div className="">

@@ -119,7 +119,7 @@ export default function Page() {
     <div>
       {/* <Header h={"Home"} c={"Contact"} a={"About"}></Header> */}
       <div onClick={()=>setIsopen((e)=>!e)}>
-        {!isopen && <Popup></Popup>}
+        {!isopen && <Popup isOpen={undefined} onClose={undefined}></Popup>}
       </div>
       <HomePage></HomePage>
       {/* <Footer></Footer> */}

@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Our Story</h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Growing nature's finest mushrooms with passion and care
+            Growing nature&apos;s finest mushrooms with passion and care
           </p>
         </div>
       </section>
@@ -26,7 +26,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-700 mb-4">
                 What began as a personal project to grow fresh, chemical-free mushrooms 
-                for our family quickly grew into a mission to share nature's bounty with 
+                for our family quickly grew into a mission to share nature&apos;s bounty with 
                 our community.
               </p>
               <p className="text-lg text-gray-700">
@@ -57,8 +57,8 @@ export default function AboutPage() {
               </div>
               <h3 className="text-2xl font-bold text-green-800 mb-4">Our Mission</h3>
               <p className="text-lg text-gray-700 italic">
-                "Deliver the freshest mushrooms to families while promoting sustainable 
-                farming practices and environmental responsibility."
+                &quot;Deliver the freshest mushrooms to families while promoting sustainable 
+                farming practices and environmental responsibility.&quot;
               </p>
             </div>
 
@@ -73,7 +73,7 @@ export default function AboutPage() {
               <h3 className="text-2xl font-bold text-green-800 mb-4">Our Vision</h3>
               <p className="text-lg text-gray-700 italic">
                 "Promote healthy eating and sustainable farming by making organic mushrooms 
-                accessible to every household while inspiring a connection with nature's gifts."
+                accessible to every household while inspiring a connection with nature&apos;s gifts.&quot;
               </p>
             </div>
           </div>
